@@ -75,9 +75,9 @@ resource "rancher2_cluster" "quickstart" {
 
           authorization {}
 
-          bastion_host {
-              ssh_agent_auth = false 
-            }
+         # bastion_host {
+         #    ssh_agent_auth = false 
+         #   }
 
           cloud_provider {
             }
